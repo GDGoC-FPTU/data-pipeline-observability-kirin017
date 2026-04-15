@@ -86,8 +86,10 @@ def validate(data):
 
         if price <= 0:
             error_count += 1
+            print(f"Invalid price: {price} in record ID {record.get('id')}")
         elif not catecory or str(catecory).strip() == '':
-            error_count += 1   
+            error_count += 1
+            print(f"Invalid category in record ID {record.get('id')}")
         else:
             valid_records.append(record)
     print(f"Validation complete. Valid: {len(valid_records)}, Errors: {error_count}")

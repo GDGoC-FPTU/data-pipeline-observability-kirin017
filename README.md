@@ -44,4 +44,4 @@ python solution.py
 
 ## Ket qua
 
-(Tom tat ket qua: bao nhieu records da xu ly, bao nhieu bi loai, v.v.)
+Tom tat ket qua: Có 5 records đã xử lí và 2 cái bị lỗi
